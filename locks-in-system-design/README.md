@@ -2,6 +2,8 @@
 
 This is a practical reference for choosing and implementing concurrency control. Start with the invariant you need to preserve, then select the smallest and closest coordination mechanism that can enforce it.
 
+For a single-page reference, see the [quick overview](overview.md).
+
 ```mermaid
 flowchart TD
   A[What must remain true?] --> B{Single process?}
